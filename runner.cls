@@ -17,3 +17,7 @@ day4.part2();
 Day05 day5 = new Day05();
 day5.part1();
 day5.part2();
+
+Day06 day6 = new Day06();
+day6.part1();
+day6.part2();
