@@ -2,7 +2,6 @@
  * Class to support utils methods to manage logic in challenges
  * This class is used to obtain the processed data in the constructor of the
  * the daily challenge classes when instanstiated.
- * Reused from public AOC framework published by Rafa Hernandez
  * @author    Rafa Hernandez
  * @created   November 2022
  */

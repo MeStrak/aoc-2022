@@ -41,6 +41,9 @@ public with sharing class Day02 extends AOC_BaseUtils {
       return score;
     }
 
+      /**
+   * @method : calcPlay
+   */
   public Integer calculatePlay() {
     // ROCK = A, PAPER = B, SCISSORS = C
     Integer loss = 0;
@@ -80,6 +83,11 @@ public with sharing class Day02 extends AOC_BaseUtils {
       score += playScores.get(handToPlay);
       System.debug(score);
       System.debug(handToPlay);
+
+      // add score for type of play
+      // score += playScores.get(splitScores[1]);
+      // System.debug(score);
+
     }
     
     return score;

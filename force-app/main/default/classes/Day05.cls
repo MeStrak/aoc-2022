@@ -78,6 +78,15 @@ public with sharing class Day05 extends AOC_BaseUtils{
     return topRow;
   }
 
+  // List<List<String> with 3 rows for the stack
+  // iterate through list
+  // string split by ' '
+  // idxs: quantity=1, origin=3, destination= 5
+  // for quantity: pop from stack[origin], push to stack[destination]
+  // Setup stacks:
+  // For row in input
+  // string.split ' '
+  // push each idx to related idx in stack
   public void part1(){
     Integer endStackIdx = readStartLayout();
     processInstructions9000(endStackIdx + 2);

@@ -33,3 +33,5 @@ $RECYCLE.BIN/
 *.iml
 .idea/
 IlluminatedCloud/
+
+packs/**
